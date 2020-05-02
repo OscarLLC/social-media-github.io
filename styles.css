@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+:root{
+  --backgrounheader: #f8f9fe;
+  --facebook: #2879bd;
+  --background: #b0b3cd;
+  --colortext: #373944;
+}
+
+.wrapper{
+  padding: 0 30px;
+  }
+
+.main-title{
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main-title-text{
+  font-weight: 700;
+}
+
+.article{
+  background-color: #f1f3fb;
+  text-align: center;
+  border-radius: 10px;
+  border-top: 4px solid #2879bd ;
+  margin: 10px 0;
+}
+
+.card-content-title{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.card-content-nomber{
+  display: inline-grid;
+}
+
+.card-nomber{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.card-text{
+  letter-spacing: 8px;
+  color:var(--colortext);
+}
+
+.card-date{
+  color: var(--facebook);
+  margin: 10px 0;
+}
