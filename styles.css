@@ -10,8 +10,18 @@ body{
   --colortext: #373944;
 }
 
+.header{
+  background-color: var(--backgrounheader);
+  padding-bottom: 100px;
+  border-radius: 0 0 20px 20px
+}
+
 .wrapper{
   padding: 0 30px;
+  }
+
+  .top-cards{
+    margin-top: -45px;
   }
 
   .grid{
@@ -21,8 +31,10 @@ body{
 
 .main-title{
   font-family: 'Inter', sans-serif;
-  font-size: 40px;
   font-weight: 700;
+  margin: 0;
+  padding: 15px 0 0 0;
+  font-size: 1.7em;
 }
 
 .main-title-text{
